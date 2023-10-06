@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import bodyParser from "body-parser";
 import express from "express";
 
-export const app = express();
+const app = express();
 
 app.use(bodyParser.json());
 app.use(express.static("public"));
@@ -173,3 +173,5 @@ app.delete("/events/:id", async (req, res) => {
 app.listen(3000, () => {
   console.log("Server running on port 3000");
 });
+
+export default app;
