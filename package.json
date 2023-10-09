@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "Eric Nguyen",
+  "author": "Maximilian Schwarzmüller (Academind GmbH)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
